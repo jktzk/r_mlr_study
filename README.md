@@ -7,8 +7,8 @@
     #Population parameters will estimated via the empirical and via samples obtain through bootstrapping
 
     #The set used is a real data set of user submitted reviews of several medications posted by individuals from xxxx to yyyy to webmd.com 
-    #The data set was harvested from webmd.com and posted to () by user
-    #The initial clean of the file was obtained from kaggle.com( ), posted and clenaed by user
+    #The data set was harvested from webmd.com and posted https://zenodo.org/record/3571494#.ZFv8jHbMJPZ
+    #The initial clean of the file was obtained from https://www.kaggle.com/datasets/thedevastator/drug-performance-evaluation?select=Drug_clean.csv
     #Further cleaning of the file is documented and explained in the comments of the runfile
 
     #The variables in the data set are as follows:
