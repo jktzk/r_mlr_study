@@ -1,3 +1,4 @@
+    set.seed(0400)
 
     #gradient descent tracer function
     trace <- function(xstar, testy, bstar) {
