@@ -1,6 +1,7 @@
 #The main goal of this case study is serve as an excercise in coding and statistical knowledge. 
 #No R packages or any functions beyond base R's scope were utilized.
 #Several of R's existing functions may have been re-derived to allow the researcher to explore a deeper understanding of the given concepts and their theoritical implications
+#The first line of code in #cleaning.r would need to be edited with the intended users correct path
 
     #The study attempts to fit a linear model for the given data set and to also derive conclusions on various estimated population parameters
     #Population parameters will estimated via the empirical and via samples obtain through bootstrapping
