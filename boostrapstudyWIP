@@ -41,19 +41,8 @@
         if(lower < betahat[9] & betahat[9] < upper) coverage[r] = coverage[r] + 1
     }
 
-    cat("sim#",j,"/ 25\n")
+    cat("sim#",j,"/ 100\n")
     }
     coverage = coverage / totalsims
-
-#histogram of sampling distribution of gradient descent calculated b9 value
-hist( gradbootBeta, breaks=floor(sqrt(bootN)), freq=F,
-    main="Gradient Descent BootData")
-abline( v=betahat[9], col="blue", lwd=3)
-
-
-#coverage for confidence interval
-plot( nominal_coverage, coverage, xlab="nominal coverage", main="CI for bootstrapped b8",
-      ylab="empirical coverage")
-lines( c(0,1), c(0,1), col="blue")
 
 
