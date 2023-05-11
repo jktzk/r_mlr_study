@@ -1,7 +1,7 @@
 ##files are only set up to run sequentially cleaning->preliminary->simulation. they wont call each other\n
-#The main goal of this case study is to serve as an excercise in coding and statistical knowledge. 
-#No R packages or any functions beyond base R's scope were utilized.
-#Several of R's existing functions may have been rewritten 
+#The main goal of this case study is to serve as an excercise in coding and statistical knowledge. \n
+#No R packages or any functions beyond base R's scope were utilized.\n
+#Several of R's existing functions may have been rewritten\n
 #The first line of code in #cleaning.r would need to be edited with the intended users correct path
 
     #The study attempts to fit a linear model for the given data set and to also derive conclusions on various estimated population parameters
