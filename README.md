@@ -1,5 +1,5 @@
-##(TODO)files are only set up to run sequentially cleaning->preliminary->simulation. they wont call each other\n
-#The main goal of this case study is to serve as an excercise in coding and statistical knowledge. \n
+##(TODO)files are only set up to run sequentially cleaning->preliminary->simulation. they won’t call each other\n
+#The main goal of this case study is to serve as an exercise in coding and statistical knowledge. \n
 #No R packages or any functions beyond base R's scope were utilized.\n
 #Several of R's existing functions may have been rewritten\n
 #The first line of code in #cleaning.r would need to be edited with the intended users correct path
@@ -10,7 +10,7 @@
     #The set used is a real data set of user submitted reviews of several medications posted by individuals from xxxx to yyyy to webmd.com 
     #The data set was harvested from webmd.com and posted https://zenodo.org/record/3571494#.ZFv8jHbMJPZ
     #The initial clean of the file was obtained from https://www.kaggle.com/datasets/thedevastator/drug-performance-evaluation?select=Drug_clean.csv
-    #Further cleaning of the file is documented and explained in the comments of the runfile
+    #Further cleaning of the file is documented and explained in the comments of the run file
 
     #The variables in the data set are as follows:
     #Condition- (condition user received treatment for)
