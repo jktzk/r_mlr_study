@@ -1,8 +1,6 @@
-##(TODO)files are only set up to run sequentially cleaning->preliminary->simulation. they won’t call each other\n
-#The main goal of this case study is to serve as an exercise in coding and statistical knowledge. \n
-#No R packages or any functions beyond base R's scope were utilized.\n
-#Several of R's existing functions may have been rewritten\n
-#The first line of code in #cleaning.r would need to be edited with the intended users correct path
+#The main goal of this case study is to serve as an exercise in coding and statistical knowledge.
+#No R packages or any functions beyond base R's scope were utilized.
+#Several of R's existing functions may have been rewritten
 
     #The study attempts to fit a linear model for the given data set and to also derive conclusions on various estimated population parameters
     #Population parameters will estimated via the empirical and via samples obtain through bootstrapping
@@ -29,8 +27,3 @@
     #TotalUserScore- (sum of specified drug’s EOU, effectiveness and satisfaction user scores)
 
     #TotalUserScore was considered the only response variable
-    
-    #This iteration of the study will attempt to fit the following linear model:
-    # Y = B0 + B1X1 .... B9X9 + e
-    #The lack of interactions in this model is intentional and was done to keep computations  simple
-    #The severe impact this decision has on the accuracy of the results of the study should go into consideration if any actionable conclusion were to be derived from the study.
