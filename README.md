@@ -1,4 +1,7 @@
-#The main goal of this case study is to serve as a coding exercise of mathematical and statistical knowledge. A formal report of results was not conducted.
+#The main goal of this case study is to serve as a coding exercise of mathematical and statistical knowledge. 
+
+#Read r_regressionstudy.pdf for a formal report of this study's findings.
+
 #No R packages or any functions beyond base R's scope were utilized.
 #Several of R's existing functions may have been rewritten
 
